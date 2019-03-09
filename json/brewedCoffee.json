@@ -1,0 +1,22 @@
+[
+  {
+    "imagePath": "./images/brewedBold.jpg",
+    "title": "Bold",
+    "desc": "Prairie Blend or Featured Drink"
+  },
+  {
+    "imagePath": "./images/brewedMedium.jpg",
+    "title": "Medium",
+    "desc": "Columbian Supremo or Featured Brew"
+  },
+  {
+    "imagePath": "./images/brewedDecaf.jpg",
+    "title": "Decaffe",
+    "desc": "Featured Decaffe"
+  },
+  {
+    "imagePath": "./images/brewedCafeMocha.jpg",
+    "title": "Cafe Mocha",
+    "desc": "Half chocolate milk and half brewed coffee"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "imagePath": "./images/specAmericano.jpg",
+    "title": "Americano",
+    "desc": "Broadway Expresso and Hot Water"
+  },
+  {
+    "imagePath": "./images/specCafeAmigo.jpg",
+    "title": "Cafe Amigo",
+    "desc": "Cinnamon Spiced Expresso, White Milk, and Chocolate Whip"
+  },
+  {
+    "imagePath": "./images/specCafeBroadway.jpg",
+    "title": "Cafe Broadway",
+    "desc": "Hazelnut Expresso and Chocolate Milk topped with Chocolate whipped Cream"
+  },
+  {
+    "imagePath": "./images/specCafeLatte.jpg",
+    "title": "Cafe Latte",
+    "desc": "Broadway Expresso and White Milk"
+  },
+  {
+    "imagePath": "./images/specCafeChestnut.jpg",
+    "title": "Cafe Chestnut",
+    "desc": "Chestnut Expresso, Chocolate Milk, and poured Whipped Cream"
+  },
+  {
+    "imagePath": "./images/specCappuccino.jpg",
+    "title": "Cappuccino",
+    "desc": "Broadway Expresso and White Milk topped with Milk Foam"
+  },
+  {
+    "imagePath": "./images/specMelange.jpg",
+    "title": "Melange",
+    "desc": "Broadway Expresso and Chocolate Milk"
+  },
+  {
+    "imagePath": "./images/specMochaccino.jpg",
+    "title": "Mochaccino",
+    "desc": "Broadway Expresso with Chocolate Milk topped with Chocolate Whipped Cream"
+  },
+  {
+    "imagePath": "./images/specVanillaRealBeanLatte.jpg",
+    "title": "Vanilla Real Bean Latte",
+    "desc": "Vanilla Expresso, White Milk, and Vanilla Syrup sprinkled with Vanilla Bean"
+  }
+]

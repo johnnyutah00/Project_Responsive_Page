@@ -1,0 +1,466 @@
+/**
+CWEB195 Final Project
+    Broadway Roastery
+    CST141 CST132 CST112
+    This page was made by Cory Nagy
+ */
+
+/************** Generic style across all devices **********************/
+body {
+    font-family: 'Lato', serif;
+    letter-spacing: 0.0625em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: 'Montserrat', serif;
+    letter-spacing: 0.2em;
+}
+
+/* for Star divider */
+hr.star-light,
+hr.star-dark {
+    max-width: 15rem;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 0.25rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+hr.star-light:after,
+hr.star-dark:after {
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 0.25em;
+    content: '\f005';
+    font-family: FontAwesome, serif;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #604444;
+
+}
+
+hr.star-light:after {
+    color: #604444;
+    background-color: rgb(243, 242, 240);
+
+}
+
+hr.star-dark {
+    border-color: #2C3E50;
+
+}
+
+hr.star-dark:after {
+    color: #604444;
+    background-color: white;
+
+}
+
+div.star-container {
+    padding-left: 1em;
+
+}
+/* End of divider */
+
+
+/* Set both images max-width to 100% and height to auto for responsiveness; Adjust padding as needed */
+#splashPhoto {
+    max-width: 100%;
+    height: auto;
+    padding-top: 18em;
+    padding-bottom: 3em;
+}
+
+.font-weight-light {
+    padding-bottom: 5em;
+}
+
+#coffee-pouring {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Changed the background to match the color of the photo */
+div#beansPhoto {
+    background: rgb(255, 254, 252);
+    color: #604444;
+
+}
+
+div#secondParagraph h2 {
+    text-transform: uppercase;
+
+}
+
+div#secondParagraph p {
+    color: #99640B;
+}
+
+#learnMore {
+    color: rgb(255, 254, 252);
+    border: 1px solid rgb(255, 254, 252);
+
+}
+
+#pageBreak {
+    margin-top: 0;
+}
+
+
+
+/* Navbar styles */
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    font-family: 'Montserrat', serif;
+}
+
+
+/* Logo or Company name */
+#mainNav .navbar-brand {
+    color: #fff;
+}
+
+/* ul navbar styles*/
+#mainNav .navbar-nav {
+    margin-top: 1rem;
+    letter-spacing: 0.0625rem;
+}
+
+/* Link styles */
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #D8BC86;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+    color: #fff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+    color: #18BC9C;
+}
+
+
+#mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.8rem;
+}
+/*Media queries that I made for responsiveness:
+
+    Desktop - min-width: 1281px
+    Laptops and Desktops: (min-width: 1025px) and (max-width: 1280px)
+    Tablets and Ipads: (min-width: 768px) and (max-width: 1024px)
+    Small devices: (min-width: 320px) and (max-width: 480px)
+    IE10+
+*/
+
+/*
+    Desktop Styles
+ */
+@media screen and (min-width: 1281px) {
+    #mainNav {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+    }
+    #mainNav .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: font-size 0.3s;
+        -moz-transition: font-size 0.3s;
+        transition: font-size 0.3s;
+    }
+    #mainNav .navbar-nav {
+        margin-top: 0;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+        color: #fff;
+        background: #604444;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+        color: #fff;
+        background: #604444;
+    }
+    #mainNav.navbar-shrink {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+
+    /* Adjusted text to be pushed in a little from left and right sides */
+
+    .first-content-p {
+        padding-left: 10em;
+        padding-top: 5em;
+    }
+
+    div#secondParagraph {
+        padding-right: 10em;
+        padding-top: 3em;
+    }
+
+    /* Changed color to match */
+    #secondImage {
+        background: rgb(255 ,254, 252);
+    }
+
+    /* Size for responsiveness */
+    img#spilledBeans, img#spilledBeans2 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #coffee-pouring {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/*
+    Laptops and Desktops
+ */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    /* Adjusted margin slightly to line up with text */
+    #coffee-pouring {
+        margin-top: 3.2em;
+        padding-top: 0;
+    }
+}
+
+
+/*
+    Tablets and Ipads
+ */
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    #mainNav {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+    }
+    #mainNav .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: font-size 0.3s;
+        -moz-transition: font-size 0.3s;
+        transition: font-size 0.3s;
+    }
+    #mainNav .navbar-nav {
+        margin-top: 0;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+        color: #fff;
+        background: #604444;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+        color: #fff;
+        background: #604444;
+    }
+    #mainNav.navbar-shrink {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+
+    /* Adjusted text to be in correct position for Ipad pro, not Ipad */
+    .first-content-p {
+        padding-left: 10em;
+    }
+
+    #secondImage {
+        background: rgb(255 ,254, 252);
+    }
+
+    img#spilledBeans{
+        max-width: 100%;
+        height: auto;
+        margin-top: 3em;
+    }
+
+    #coffee-pouring {
+        margin-top: 3.2em;
+    }
+
+
+
+}
+
+/*
+    Phone Styles
+ */
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+    p.first-content-p {
+        text-align: justify;
+        padding-left: 0;
+    }
+
+    .text-justify {
+        text-align: center;
+    }
+
+    h2#title {
+        text-align: center;
+    }
+
+    /* Changed the order of the photos so it's text, than a photo for each section in mobile */
+    #secondParagraph {
+        order: 0;
+    }
+
+    #secondImage {
+        order: 1;
+    }
+
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS styles
+    This was used because the HR rule wasn't displaying properly on IE11, so this would
+    make it display in the correct position on Desktop*/
+
+    hr.star-light {
+
+        margin-left: 26.75em;
+
+    }
+}
+
+
+/* Main content below Navbar */
+header.masthead {
+
+    background: rgb(243, 242, 240);
+    padding-bottom: 2px;
+
+
+}
+
+header.masthead h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+header.masthead h2 {
+    font-size: 1.3rem;
+    font-family: 'Lato', serif;
+}
+
+
+.footer {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    background-color: #1a252f;
+    color: #fff;
+}
+
+.copyright {
+    background-color: #1a252f;
+}
+
+/************ Button and Background styles ***********/
+/* Note: not all were used. Experimenting with Bootstrap at first */
+.btn {
+    border-width: 1px;
+
+}
+
+.btn-gourmet-coffee {
+    color: #99640B;
+    background-color: transparent;
+    border-color: #99640B;
+}
+/* Override the regular colors for background, can customize*/
+
+.bg-primary {
+    background-color: #442525 !important;
+}
+
+.bg-main-photo {
+    background: rgb(243, 242, 240);
+
+}
+.bg-custom {
+    background-color: #604444 !important;
+}
+
+.bg-secondary {
+    background-color: #2C3E50 !important;
+}
+
+.bg-section-background {
+    background-color:#444B60 ;
+}
+
+
+.text-secondary {
+    color: #2C3E50 !important;
+}
+
+.btn-default {
+   background-color: #604444;
+}
+
+
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn-primary {
+    color: #D8BC86;
+    background-color: #604444;
+    border-color: #D8BC86;
+}
+.btn-primary:hover, .open > .dropdown-toggle.btn-primary {
+    color: #000000;
+    background-color: #D8BC86;
+    border: #D8BC86;
+}
+
+.btn-light {
+    border-color: #D8BC86;
+    color: #D8BC86;
+}
+
+/* Footer Icons */
+.btn-xl {
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+}
+
+.btn-social {
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+a {
+    color: #FFF;
+}
+
+a:focus, a:hover, a:active {
+    color: #D8BC86;
+}

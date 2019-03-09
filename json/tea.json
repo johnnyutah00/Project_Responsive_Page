@@ -1,0 +1,28 @@
+[
+  {
+    "imagePath": "./images/teaChaiLatte.jpg",
+    "title": "Chai Latte",
+    "desc": "Real Chai Tea with White Milk"
+  },
+  {
+    "imagePath": "./images/teaGreenTeaLatte.jpg",
+    "title": "Green Tea Latte",
+    "desc": "Sweetened Japanese Matcha Green Tea with White Milk"
+  },
+  {
+    "imagePath": "./images/teaLondonFog.jpg",
+    "title": "London Fog",
+    "desc": "Earl Grey or Blueberry Tea Sweetened with Vanilla Syrup and white Milk"
+  },
+  {
+    "imagePath": "./images/teaLooseLeaf.jpg",
+    "title": "Loose Leaf Teas",
+    "desc": "Selection of Black, Flavored, Green, and Herbel"
+  }
+,
+  {
+    "imagePath": "./images/teaBaggedLeaf.jpg",
+    "title": "Bagged Teas",
+    "desc": "Assorted Selection Available"
+  }
+]

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!--
+    CWEB195 Final Project
+    Broadway Roastery
+    CST141 CST132 CST112
+    This page was made by Cory Nagy
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Broadway Roastery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- added favicon-->
+    <link rel="icon" type="image/ico" href="./images/favicon.ico">
+
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- font awesome for glyph icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- bootstrap links-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/Home.css">
+
+</head>
+
+<body id="page-top">
+
+    <!-- navbar-expand-lg stacks the navbar vertically on extra large, large, medium or small screens -->
+    <nav class="navbar navbar-expand-lg bg-custom fixed-top text-uppercase" role="navigation" id="mainNav">
+
+        <div class="container">
+
+            <!-- navbar-brand is for logo spot and js-scroll-trigger should move to location -->
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Broadway Roastery</a>
+
+            <!-- .navbar-toggler for use with our collapse plugin and other navigation toggling behaviors.
+             .collapse hides content, -->
+            <button class="navbar-toggler navbar-toggler-right text-uppercase btn-light rounded"
+                    type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" >
+                Menu
+                <i class="fa fa-bars"></i>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                <ul class="navbar-nav ml-auto">
+                     <!-- mx = margin for both left and right -->
+                    <li class="nav-item mx-0 mx-lg-1">
+                    <!-- py-3 = Padding for both top and bottom  ~ px-0 = Padding for left and right -->
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="Home.html">Home</a>
+                    </li>
+
+                    <li class="nav-item mx-0 mx-lg-1">
+
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="Menu.html">Menu</a>
+                    </li>
+
+                    <li class="nav-item mx-0 mx-lg-1">
+
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="Gallery.html">Gallery</a>
+                    </li>
+
+                    <li class="nav-item mx-0 mx-lg-1">
+
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="News.html">News</a>
+                    </li>
+
+                    <li class="nav-item mx-0 mx-lg-1">
+
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="About.html">About</a>
+                    </li>
+
+                    <li class="nav-item mx-0 mx-lg-1">
+
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="ContactUs.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main splash Photo -->
+    <header class="masthead bg-main-photo text-black text-center">
+        <div class="container bg-main-photo">
+            <img class="img-fluid d-block mx-auto" id="splashPhoto" src="./images/main-photo.png" alt="">
+            <div class="star-container">
+                <hr class="star-light">
+            </div>
+            <h2 class="font-weight-light">Relaxed Atmosphere - Great Coffee - Friendly Staff</h2>
+        </div>
+    </header>
+
+    <!-- Main content section is separated into two sections. Tried to imitate another coffee page I thought looked nice! -->
+    <section class="text-white bg-custom">
+        <div class="container-fluid" id="firstContent">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 pt-3 text-right text-white" id="firstParagraph">
+                    <h2 class="pr-1 pt-4 pb-4" id="title">Broadway Roastery</h2>
+                    <p class="first-content-p py-1">Broadway Roastery has been innovating the regional market for more than 30 years
+                                                    as a committed multi-local company with strict quality standards.</p>
+
+                    <p class="first-content-p py-1">Broadway Roastery is known for our great tasting coffees and pastries, crafted by experts from unique recipes and featuring
+                                                    ingredients from prestigious areas as Tarrazú (Costa Rica), Nariño (Colombia), and  Sacred Valley (Peru)
+                                                    that represent the highest quality available.</p>
+
+                    <p class="first-content-p py-1" id="thirdPara">With our gourmet offering, Broadway Roastery maintains a strong presence in Saskatoon,
+                        through impeccable service and unparalleled products.</p>
+
+                    <p class="first-content-p py-1" id="fourthPara">Our business model is unique because it focuses on providing the best experience for every stakeholder
+                                                    in our business: from consumers and employees to growers and the environment. We focus on quality over quantity.</p>
+
+                    <div class="tile-footer read-more my-4">
+                        <h2><span class="btn btn-learn-more" id="learnMore">Learn More</span></h2>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 pr-0 pl-0" id="aside">
+                    <img src="images/beverage-cafe-caffeine-324028.jpg" class="img-fluid" id="coffee-pouring"/>
+                </div>
+            </div>
+            <div class="row pb-3" id="beansPhoto">
+                <div class="col-lg-6 col-md-6 col-sm-12 d-block" id="secondImage">
+                    <img src="images/coffee-content-image.jpg" alt="Gourmet coffee beans" class="img-fluid" id="spilledBeans">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 d-block" id="secondParagraph">
+                    <h2 class="text-justify">For the love of coffee</h2>
+                    <p class="text-justify pt-4">At Broadway Roastery, we understand that everyone is different and strive to help each customer find the brew that suits him or her best.
+                        That’s why we offer a variety of high-quality coffees that satisfy a wide range of tastes and preferences.</p>
+                    <p class="text-justify pt-4">Our method is simple: choose the highest quality coffee beans and match them with expert roasters and other skilled local workers who then perfectly
+                        roast them in exclusive blends.</p>
+                    <p class="text-justify pt-4">This recipe has been the key to our success for over thirty years. We feature the region’s best coffees, produced responsibly and roasted to perfection.</p>
+                    <div class="tile-footer read-more my-4">
+                        <h2><span class="btn btn-gourmet-coffee">Gourmet Coffee</span></h2>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p class="lead mb-0">614 Broadway Ave
+                        <br>Saskatoon, SK S7N 1A8</p>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                                <i class="fa fa-fw fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                                <i class="fa fa-fw fa-google-plus"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                                <i class="fa fa-fw fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                                <i class="fa fa-fw fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                                <i class="fa fa-fw fa-dribbble"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-uppercase mb-4">Email</h4>
+                    <p class="lead mb-0"><a href="mailto:roastery@shaw.wave.ca">roastery@shaw.wave.ca</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright py-1 text-center text-white">
+        <div class="container">
+            <small>Copyright &copy; Broadway Roastery <a href="Team.html" class="text-white">2018</a></small>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+
+    <!--bootstrap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+            integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+   <!-- JavaScript -->
+    <script src="JS/Home.js"></script>
+
+</body>
+</html>

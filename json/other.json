@@ -1,0 +1,17 @@
+[
+  {
+    "imagePath": "./images/otherHotChocolate.jpg",
+    "title": "Hot Chocolate",
+    "desc": "Chocolate Milk topped with Chocolate Whip"
+  },
+  {
+    "imagePath": "./images/otherHotFlavoredMilk.jpg",
+    "title": "Hot Flavored Milk",
+    "desc": "White Milk with various Flavors"
+  },
+  {
+    "imagePath": "./images/otherItalianSoda.jpg",
+    "title": "Italian Soda",
+    "desc": "Assorted Flavors of Club Soda over Ice"
+  }
+]

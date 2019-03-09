@@ -1,0 +1,17 @@
+[
+  {
+    "imagePath": "./images/icedVietnamese.jpg",
+    "title": "Vietnamese",
+    "desc": "Sweetened Expresso with White Milk and Poured Cream"
+  },
+  {
+    "imagePath": "./images/icedCappuccino.jpg",
+    "title": "Cappuccino",
+    "desc": "Sweetened Expresso with White Milk and Whipped Cream"
+  },
+  {
+    "imagePath": "./images/icedFrappe.jpg",
+    "title": "Frappe",
+    "desc": "Sweetened Expresso blended with White or Chocolate Milk"
+  }
+]
